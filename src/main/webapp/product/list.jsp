@@ -20,5 +20,6 @@
 <c:forEach var="i" begin="0" end="${listproduct.size()-1}">
     <h2>${listproduct.get(i).id}, ${listproduct.get(i).name}, ${listproduct.get(i).price}, ${listcategory.get(i).name}</h2>
 </c:forEach>
+// duy hung sửa lần 2
 </body>
 </html>
